@@ -1,5 +1,5 @@
-import '../../styles/componentStyles/landing-content.css';
-import '../../styles/componentStyles/lighting-section.css';
+import '../../styles/componentStyles/home-styles/landing-content.css';
+import '../../styles/componentStyles/home-styles/lighting-section.css';
 
 export default function LightingSection() {
 

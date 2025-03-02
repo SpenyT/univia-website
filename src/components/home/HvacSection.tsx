@@ -1,5 +1,5 @@
-import '../../styles/componentStyles/landing-content.css';
-import '../../styles/componentStyles/hvac-section.css';
+import '../../styles/componentStyles/home-styles/landing-content.css';
+import '../../styles/componentStyles/home-styles/hvac-section.css';
 
 export default function HvacSection() {
 

@@ -2,10 +2,12 @@ import React, {useState, useRef, useCallback} from "react";
 import { useInView } from 'react-intersection-observer';
 
 
-import '../../styles/componentStyles/section-dir.css';
+import '../../styles/componentStyles/home-styles/section-dir.css';
 
 import Segment from '../../assets/spinning-segment.svg?react'
 import LightingIcon from '../../assets/lighting-icon.svg?react'
+
+import {handleScrollToSection} from "../../utils/scrollLogic.ts";
 
 interface ISegment {
     name: string,
@@ -19,10 +21,7 @@ const segments: Array<ISegment> = [
     { name: "finance", icon: LightingIcon }
 ];
 
-const handleScrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    section?.scrollIntoView({ behavior: "smooth" });
-};
+
 
 type FullSegmentProps = {
     name:string,
@@ -81,7 +80,7 @@ export default function SectonDir() {
     };
 
     return (
-        <div className="section-dir">
+        <div id="directory" className="section-dir">
             <div className="segment-container">
                 <div className="main-spin">
                     {segments.map((segment) => (

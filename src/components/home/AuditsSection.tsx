@@ -1,5 +1,5 @@
-import '../../styles/componentStyles/landing-content.css';
-import '../../styles/componentStyles/audits-section.css';
+import '../../styles/componentStyles/home-styles/landing-content.css';
+import '../../styles/componentStyles/home-styles/audits-section.css';
 
 export default function AuditsSection() {
 

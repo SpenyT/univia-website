@@ -1,5 +1,5 @@
-import '../../styles/componentStyles/landing-content.css';
-import '../../styles/componentStyles/decarb-section.css';
+import '../../styles/componentStyles/home-styles/landing-content.css';
+import '../../styles/componentStyles/home-styles/decarb-section.css';
 
 export default function DecarbSection() {
 
